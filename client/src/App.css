@@ -1,0 +1,47 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conatiner{
+  width: 50vh;
+  border-radius: 5px;
+ 
+  border: 1px solid lightgreen;
+
+}
+.login{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+button{
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(82, 223, 82);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.userName{
+  font-weight: bold;
+  color: lightgreen;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
